@@ -13,7 +13,7 @@ The Aviation Accident data recorded by the National Transportation Safety Board,
 
 For Data Preparation and cleaning, I first create a new dataframe from the aviation data that contains the columns that may be the most beneficial. From there I normalize the column names and start dropping rows with values that do not fit the commercial plane criteria. 
 
-Since the company wants to branch out to commercial aircraft, I did some research to find the leading companies for commercial aircraft. My research led me to two well-known and respected major aircraft manufacturers for commercial use, [Boeing](https://www.boeing.com/ 'Boeing website') and [Airbus](https://www.airbus.com/en 'Airbus Website). To narrow down the dataset to these two companies, I first double check if there are any company name variances in the dataset and then replace the variances with the respective company's commonly used name. After making names uniform, I created individual dataframes for Boeing, and Airbus to further clean their aircraft models to only show aircraft still in production by these companies. Finally, I combined the two dataframes and further dropped rows with null values that couldn't be filled with the data on-hand.
+Since the company wants to branch out to commercial aircraft, I did some research to find the leading companies for commercial aircraft. My research led me to two well-known and respected major aircraft manufacturers for commercial use, [Boeing](https://www.boeing.com/ 'Boeing website') and [Airbus](https://www.airbus.com/en 'Airbus Website'). To narrow down the dataset to these two companies, I first double check if there are any company name variances in the dataset and then replace the variances with the respective company's commonly used name. After making names uniform, I created individual dataframes for Boeing, and Airbus to further clean their aircraft models to only show aircraft still in production by these companies. Finally, I combined the two dataframes and further dropped rows with null values that couldn't be filled with the data on-hand.
 
 
 ## Exploratory Data Analysis
@@ -25,7 +25,7 @@ Overall, the Boeing 737 holds the most records in the dataset, but that doesn’
 
 #### Recorded Damge
 
-The overall damage shows promising results with minor damage being the majority outcome for most of the aircraft present in the dataset, then followed by substantial damage, and destroyed.
+The overall damage shows promising results with minor damage being the majority outcome for most of the aircraft present in the dataset, then followed by substantial damage, and destroyed. The 737 has the most record counts in the data set with the majority being minor damage. Airbus A220 has only 1 record in the dataset with minor damage to the aircraft.
 ![Image](https://github.com/user-attachments/assets/e8588d86-036f-4c5f-8e9c-b9f8d24b1f2a)
 
 #### Injury Severity
