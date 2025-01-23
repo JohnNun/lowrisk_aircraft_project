@@ -21,17 +21,17 @@ Since the company wants to branch out to commercial aircraft, I did some researc
 #### Overall Data
 
 Overall, the Boeing 737 holds the most records in the dataset, but that doesn’t necessarily mean that it is a high-risk aircraft as the 737 has been in production since 1967. Also, due to its popularity and reliability, it has been a highly sought-out aircraft since its first flight. The Airbus aircraft, namely the Airbus A220 first took flight in 2013, and since its creation, it appears only once in the dataset. That alone is enough to give this aircraft high praise for its safety and reliability.
-
+![Image](https://github.com/user-attachments/assets/2457ebb5-8ffa-4058-a336-7cb44d08afd6)
 
 #### Recorded Damge
 
 The overall damage shows promising results with minor damage being the majority outcome for most of the aircraft present in the dataset, then followed by substantial damage, and destroyed.
-
+![Image](https://github.com/user-attachments/assets/e8588d86-036f-4c5f-8e9c-b9f8d24b1f2a)
 
 #### Injury Severity
 
 Like the damage to aircraft, the injury severity also shows a great overall outcome for these incidents where the best outcome in any kind of aircraft-related accidents is Non-Fatal. Unfortunately, the next outcome is Fatal, followed by Incidents. Despite the Boeing 737 holding the most records on this dataset, the majority and by a large margin is non-fatal, which speaks volumes towards the aircraft’s safety.
-
+![Image](https://github.com/user-attachments/assets/9724bdfa-7b80-439e-8658-c92c22ef82db)
 
 ## Conclusion
 
