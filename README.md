@@ -1,5 +1,5 @@
 # Low Risk Aircraft
-
+Author: Jonathan Nunez
 
 ## Business Understanding
 
@@ -61,4 +61,8 @@ Further analyzing the data could also give a better understanding of the safety 
 Also, exploring data that contains successful flight records either on a daily, weekly, or monthly basis for these aircraft can further help to identify a low-risk aircraft by comparing overall data of recorded accidents to overall successful flights.
 
 If possible, getting record data of what the causes of these aircraft accidents can help further narrow down a low-risk aircraft. For example that kind of data could potentially give better insight on how well these aircraft operate in unpredictable weather, or if was system failures that caused these accidents, over human error.
+
+## For More Information
+Full data analysis in [Jupyter Notebook](https://github.com/JohnNun/lowrisk_aircraft_project/blob/main/lowrisk_aircraft_project_notebook.ipynb "Low-risk Aircraft Notebook") or review the [presentation](https://github.com/JohnNun/lowrisk_aircraft_project/blob/main/low-risk_aircraft_presentation.pdf "Low-risk Aircraft Presentation").
+
 
