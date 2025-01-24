@@ -52,7 +52,9 @@ A major limitation with this dataset is that from the very beginning it contains
 
 ### Recommendations
 
-While the commercial aircraft has been narrowed down to 3, I believe further research and comparison of these aircraft is necessary to find out where each aircraft excels or falls short to ensure not only safety of the potential consumer, but for the success of the company in this field.
+The 3 aircraft I recommend are the **Boeing 737**, and the **Airbus A220** and **A321-271N**. Further research and comparison of these aircraft is necessary to find out where each aircraft excels or falls short to ensure not only safety of the potential consumer, but for the success of the company in this field. 
+
+I also recommend **gathering and including data of successful flights** over a period of time as this can help with comparing the total accidents to successful flights for the individual aircraft.
 
 ## Next Steps
 
