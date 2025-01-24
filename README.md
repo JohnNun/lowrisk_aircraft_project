@@ -31,7 +31,7 @@ The overall damage shows promising results with minor damage being the majority 
 #### Injury Severity
 
 Like the damage to aircraft, the injury severity also shows a great overall outcome for these incidents where the best outcome in any kind of aircraft-related accidents is Non-Fatal. Unfortunately, the next outcome is Fatal, followed by Incidents. Despite the Boeing 737 holding the most records on this dataset, the majority and by a large margin is non-fatal, which speaks volumes towards the aircraft’s safety.
-![Image](https://github.com/user-attachments/assets/9724bdfa-7b80-439e-8658-c92c22ef82db)
+![Image](https://github.com/user-attachments/assets/de0748bf-5adc-4e9c-b428-d0fa5830444f)
 
 ## Conclusion
 
