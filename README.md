@@ -1,5 +1,5 @@
 # Low Risk Aircraft
-
+Author: Jonathan Nunez
 
 ## Business Understanding
 
@@ -13,7 +13,7 @@ The Aviation Accident data recorded by the National Transportation Safety Board,
 
 For Data Preparation and cleaning, I first create a new dataframe from the aviation data that contains the columns that may be the most beneficial. From there I normalize the column names and start dropping rows with values that do not fit the commercial plane criteria. 
 
-Since the company wants to branch out to commercial aircraft, I did some research to find the leading companies for commercial aircraft. My research led me to two well-known and respected major aircraft manufacturers for commercial use, [Boeing](https://www.boeing.com/ 'Boeing website') and [Airbus](https://www.airbus.com/en 'Airbus Website). To narrow down the dataset to these two companies, I first double check if there are any company name variances in the dataset and then replace the variances with the respective company's commonly used name. After making names uniform, I created individual dataframes for Boeing, and Airbus to further clean their aircraft models to only show aircraft still in production by these companies. Finally, I combined the two dataframes and further dropped rows with null values that couldn't be filled with the data on-hand.
+Since the company wants to branch out to commercial aircraft, I did some research to find the leading companies for commercial aircraft. My research led me to two well-known and respected major aircraft manufacturers for commercial use, [Boeing](https://www.boeing.com/ 'Boeing website') and [Airbus](https://www.airbus.com/en 'Airbus Website'). To narrow down the dataset to these two companies, I first double check if there are any company name variances in the dataset and then replace the variances with the respective company's commonly used name. After making names uniform, I created individual dataframes for Boeing, and Airbus to further clean their aircraft models to only show aircraft still in production by these companies. Finally, I combined the two dataframes and further dropped rows with null values that couldn't be filled with the data on-hand.
 
 
 ## Exploratory Data Analysis
@@ -21,17 +21,17 @@ Since the company wants to branch out to commercial aircraft, I did some researc
 #### Overall Data
 
 Overall, the Boeing 737 holds the most records in the dataset, but that doesn’t necessarily mean that it is a high-risk aircraft as the 737 has been in production since 1967. Also, due to its popularity and reliability, it has been a highly sought-out aircraft since its first flight. The Airbus aircraft, namely the Airbus A220 first took flight in 2013, and since its creation, it appears only once in the dataset. That alone is enough to give this aircraft high praise for its safety and reliability.
-
+![Image](https://github.com/user-attachments/assets/2457ebb5-8ffa-4058-a336-7cb44d08afd6)
 
 #### Recorded Damge
 
-The overall damage shows promising results with minor damage being the majority outcome for most of the aircraft present in the dataset, then followed by substantial damage, and destroyed.
-
+The overall damage shows promising results with minor damage being the majority outcome for most of the aircraft present in the dataset, then followed by substantial damage, and destroyed. The 737 has the most record counts in the data set with the majority being minor damage. Airbus A220 has only 1 record in the dataset with minor damage to the aircraft.
+![Image](https://github.com/user-attachments/assets/e8588d86-036f-4c5f-8e9c-b9f8d24b1f2a)
 
 #### Injury Severity
 
 Like the damage to aircraft, the injury severity also shows a great overall outcome for these incidents where the best outcome in any kind of aircraft-related accidents is Non-Fatal. Unfortunately, the next outcome is Fatal, followed by Incidents. Despite the Boeing 737 holding the most records on this dataset, the majority and by a large margin is non-fatal, which speaks volumes towards the aircraft’s safety.
-
+![Image](https://github.com/user-attachments/assets/9724bdfa-7b80-439e-8658-c92c22ef82db)
 
 ## Conclusion
 
@@ -63,4 +63,8 @@ Further analyzing the data could also give a better understanding of the safety 
 Also, exploring data that contains successful flight records either on a daily, weekly, or monthly basis for these aircraft can further help to identify a low-risk aircraft by comparing overall data of recorded accidents to overall successful flights.
 
 If possible, getting record data of what the causes of these aircraft accidents can help further narrow down a low-risk aircraft. For example that kind of data could potentially give better insight on how well these aircraft operate in unpredictable weather, or if was system failures that caused these accidents, over human error.
+
+## For More Information
+Full data analysis in [Jupyter Notebook](https://github.com/JohnNun/lowrisk_aircraft_project/blob/main/lowrisk_aircraft_project_notebook.ipynb "Low-risk Aircraft Notebook") or review the [presentation](https://github.com/JohnNun/lowrisk_aircraft_project/blob/main/low-risk_aircraft_presentation.pdf "Low-risk Aircraft Presentation").
+
 
