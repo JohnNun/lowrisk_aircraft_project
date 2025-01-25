@@ -1,4 +1,4 @@
-# Low Risk Aircraft
+# Low-Risk Aircraft
 Author: Jonathan Nunez
 
 ## Business Understanding
