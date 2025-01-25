@@ -67,4 +67,17 @@ If possible, getting record data of what the causes of these aircraft accidents 
 ## For More Information
 Full data analysis in [Jupyter Notebook](https://github.com/JohnNun/lowrisk_aircraft_project/blob/main/lowrisk_aircraft_project_notebook.ipynb "Low-risk Aircraft Notebook") or review the [presentation](https://github.com/JohnNun/lowrisk_aircraft_project/blob/main/low-risk_aircraft_presentation.pdf "Low-risk Aircraft Presentation").
 
+## Repository Structure
+```
+├── code
+│   ├── __init__.py
+│   ├── data_preparation.py
+│   ├── visualizations.py
+│   └── eda_notebook.ipynb
+├── images
+├── __init__.py
+├── README.md
+├── low-risk_aircraft.pdf
+└── lowrisk_aircraft_project.ipynb
+```
 
