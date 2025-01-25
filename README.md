@@ -69,11 +69,6 @@ Full data analysis in [Jupyter Notebook](https://github.com/JohnNun/lowrisk_airc
 
 ## Repository Structure
 ```
-├── code
-│   ├── __init__.py
-│   ├── data_preparation.py
-│   ├── visualizations.py
-│   └── eda_notebook.ipynb
 ├── images
 ├── __init__.py
 ├── README.md
